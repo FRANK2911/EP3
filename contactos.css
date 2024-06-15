@@ -1,0 +1,65 @@
+header{
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+#lista{
+    float: left;
+    margin-left: 370px;
+    margin-top: 10px;
+    height: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    
+}
+#lista>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 90px;
+}
+#lista a{
+    padding: 10px;
+    text-decoration: none;
+    color:burlywood;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+#lista a:hover{
+    background-color: dimgrey;
+    color: white;
+    cursor: pointer;
+}
+#tablas{
+    width: 700px;
+    text-align: center;
+}
+#arriba{
+    
+    margin-top: 110px;
+    background-color: bisque;
+    display: flex;
+}
+.tablas{
+    justify-content: center;
+    text-align: center;
+    margin-left: 24%;
+}
+#formulario{
+    width: 600px;
+    text-align: center;
+}
+#abajo{
+    background-color: bisque;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
